@@ -58,10 +58,7 @@ app.use(helmet({
 const getCorsOrigins = () => {
     if (process.env.NODE_ENV === 'production') {
         return [
-            'https://shop.planetofwine.com',
-            'https://www.shop.planetofwine.com',
-            'https://planetofwine.com',
-            'https://www.planetofwine.com'
+            'https://liquikartperfume.work-files.com',
         ];
     }
     return ['http://localhost:3000', 'http://localhost:5000'];
